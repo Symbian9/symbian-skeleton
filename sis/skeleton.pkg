@@ -1,0 +1,36 @@
+; skeleton.pkg
+;
+;Language - standard language definitions
+&EN,FR,GE
+
+; standard SIS file header
+; Changelog
+; 2.00: Specialization
+; 1.01: Fixe ressources pb
+; 1.00: Initial release
+#{"skeleton", "skeleton", "skeleton"},(0xA000017F),2,0,0
+
+;Localised Vendor name
+%{"PSymbianSoft", "PSymbianSoft", "PSymbianSoft"}
+
+;Unique Vendor name
+:"PSymbianSoft"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"S60ProductID", "S60ProductID", "S60ProductID"}
+
+;Files to install
+"/home/snoogie/symbian_sdks/s60_32/epoc32/release/gcce/urel/skeleton.exe" -"!:\sys\bin\skeleton.exe"
+
+{
+"/home/snoogie/symbian_sdks/s60_32/epoc32/data/z/resource/apps/skeleton.rsc"
+"/home/snoogie/symbian_sdks/s60_32/epoc32/data/z/resource/apps/skeleton.r02"
+"/home/snoogie/symbian_sdks/s60_32/epoc32/data/z/resource/apps/skeleton.r03"
+} -"!:\resource\apps\skeleton.rsc"
+
+"/home/snoogie/symbian_sdks/s60_32/epoc32/data/z/private/10003a3f/import/apps/skeleton_reg.rsc" -"!:\private\10003a3f\import\apps\skeleton_reg.rsc"
+"/home/snoogie/symbian_sdks/s60_32/epoc32/data/z/resource/apps/skeleton_aif.mif" -"!:\resource\apps\skeleton_aif.mif"
+
+;required for application to be covered by backup/restore facility
+"backup_registration.xml"						-"!:\private\A000017F\backup_registration.xml"
+

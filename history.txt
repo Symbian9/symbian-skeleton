@@ -1,0 +1,2 @@
+2.00; Adding specialize.sh to simplify the specialization process !
+1.00: Initial release

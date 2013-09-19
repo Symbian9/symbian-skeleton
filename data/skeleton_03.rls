@@ -1,0 +1,38 @@
+/*
+* ==============================================================================
+*  Name        : skeleton_03.rls
+*  Part of     : skeleton
+*  Language		 : German
+*  Description : Template application for PSymbianSoft
+*  Version     : 1.00
+*
+*  Copyright (c) 2009 PSymbianSoft
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  PSymbianSoft
+* ==============================================================================
+*/
+
+// LOCALISATION STRINGS
+// Application name
+rls_string STRING_r_skeleton_caption_string "skeleton"
+
+// Short caption string for app.
+rls_string STRING_r_sleketon_short_caption_string "SKEL"
+
+// First item in "Options" menu pane
+rls_string STRING_r_skeleton_about "About"
+
+// Second item in "Options" menu pane
+rls_string STRING_r_skeleton_exit "Exit"
+
+// About box title
+rls_string STRING_r_skeleton_about_title "About"
+
+// About box body
+rls_string STRING_r_skeleton_about_body "This software is copyright PSymbianSoft 2009."
+
+rls_string STRING_r_skeleton_loc_resource_file "\\resource\\apps\\skeleton"
+
+// End of File
+

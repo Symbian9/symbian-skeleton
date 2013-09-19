@@ -1,0 +1,25 @@
+/*
+* ==============================================================================
+*  Name        : bld.inf
+*  Part of     : skeleton
+*  Description : Template application for PSymbianSoft
+*  Version     : 1.00
+*
+*  Copyright (c) 2009 PSymbianSoft
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  PSymbianSoft
+* ==============================================================================
+*/
+
+prj_platforms
+default
+
+prj_exports
+
+prj_mmpfiles
+
+gnumakefile icons_scalable_dc.mk
+
+skeleton.mmp
+

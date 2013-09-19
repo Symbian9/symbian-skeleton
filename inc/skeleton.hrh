@@ -1,0 +1,26 @@
+/*
+* ==============================================================================
+*  Name        : skeleton.hrh
+*  Part of     : skeleton
+*  Language		 : English
+*  Description : Template application for PSymbianSoft
+*  Version     : 1.00
+*
+*  Copyright (c) 2009 PSymbianSoft
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  PSymbianSoft
+* ==============================================================================
+*/
+
+#ifndef __SKELETON_HRH__
+#define __SKELETON_HRH__
+
+// Skeleton enumerate command codes
+enum TSkeletonIds
+    {
+    ESkeletonAbout = 0x6001, // start value must not be 0
+		ESkeletonExit
+    };
+
+#endif // __SKELETON_HRH__

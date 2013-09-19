@@ -1,0 +1,31 @@
+/*
+* ==============================================================================
+*  Name        : skeleton_reg.rss
+*  Part of     : skeleton
+*  Language		 : English
+*  Description : Template application for PSymbianSoft
+*  Version     : 1.00
+*
+*  Copyright (c) 2009 PSymbianSoft
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  PSymbianSoft
+* ==============================================================================
+*/
+
+#include "skeleton.rls"
+#include <appinfo.rh>
+#include <skeleton.rsg>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0xA000017F
+
+RESOURCE APP_REGISTRATION_INFO
+{
+  app_file="skeleton";
+  localisable_resource_file =  STRING_r_skeleton_loc_resource_file;
+  localisable_resource_id = R_SKELETON_LOCALISABLE_APP_INFO;
+  embeddability=KAppNotEmbeddable;
+  newfile=KAppDoesNotSupportNewFile;
+}
+

@@ -1,0 +1,68 @@
+/*
+* ==============================================================================
+*  Name        : skeleton.mmp
+*  Part of     : skeleton
+*  Description : Template application for PSymbianSoft
+*  Version     : 1.00
+*
+*  Copyright (c) 2009 PSymbianSoft
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  PSymbianSoft
+* ==============================================================================
+*/
+
+target            skeleton.exe
+targettype        exe
+uid		  0x1000DEAD 0xa000017f
+
+secureid	  0xa000017f
+epocstacksize	  0x5000
+
+sourcepath        ..\src
+source            skeleton.cpp
+source            skeletonapplication.cpp
+source            skeletonappview.cpp
+source            skeletonappui.cpp
+source            skeletondocument.cpp
+
+sourcepath        ..\data
+
+start resource    skeleton.rss
+header
+targetpath resource\apps
+end //resource
+
+start resource    skeleton_reg.rss
+#ifdef winscw
+targetpath 	  \private\10003a3f\apps
+#else
+targetpath 	  \private\10003a3f\import\apps
+#endif
+end //resource
+
+
+
+userinclude       ..\inc
+
+systeminclude     \epoc32\include
+
+library           euser.lib
+library           apparc.lib
+library           cone.lib
+library           eikcore.lib
+library           avkon.lib
+library           commonengine.lib
+library		      efsrv.lib
+library           estor.lib
+library           eikcoctl.lib
+library           eikdlg.lib
+
+
+lang sc 01 02 03
+
+vendorid	  	  0
+capability	none
+
+// end of file
+

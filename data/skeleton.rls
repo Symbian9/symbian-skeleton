@@ -1,0 +1,26 @@
+/*
+* ==============================================================================
+*  Name        : skeleton.rls
+*  Part of     : skeleton
+*  Language		 : English
+*  Description : Template application for PSymbianSoft
+*  Version     : 1.00
+*
+*  Copyright (c) 2009 PSymbianSoft
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  PSymbianSoft
+* ==============================================================================
+*/
+
+//  LOCALISATION STRINGS
+
+//#ifdef LANGUAGE_SC
+#include "skeleton_01.rls"   // default u.k. english
+/*#elif defined LANGUAGE_01
+#include "skeleton_01.rls"   // u.k. english
+#elif defined LANGUAGE_09
+#include "skeleton_02.rls"   // french
+#elif defined LANGUAGE_31
+#include "skeleton_03.rls"   // german
+#endif*/
